@@ -11,6 +11,9 @@ Once imported user can leverage all IDE tools like Intellij IDEA [structural sea
 * The project is not meant to be built. 
 * The project contains no own sources.
 
+### Another solution
+The project creates IntelliJ IDEA project modules that contains whole Liferay 7 code: https://github.com/holatuwol/liferay-intellij
+
 ## License
 LGPL-2.1
 
