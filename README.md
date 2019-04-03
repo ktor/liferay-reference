@@ -1,0 +1,2 @@
+# liferay-reference
+The project servers as an index of Liferay CE 7 code. It's meant to be opened with an IDE that supports maven an can index all dependencies together with sources like Intellij IDEA for example. Once imported user can levelage all IDE tools like structural search, full text search etc. to find API's and sources he's interested in. The project uses release.portal.bom artifact from Liferay as a base. The project is not meant to be built. The project contains no own sources.
