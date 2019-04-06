@@ -1,5 +1,5 @@
 # liferay-reference
-The project servers as an index of Liferay CE 7 code. It's meant to include all Liferay 7 code as dependency.
+The project serves as an index of Liferay CE 7 code. It's meant to include all Liferay 7 code as dependency.
  
 ## Usage
 It's meant to be opened with an IDE that supports maven an can index all dependencies together with sources like Intellij IDEA for example.
