@@ -10,7 +10,7 @@
         in. The project uses release.portal.bom artifact from Liferay as a base. The project is not meant to be built.
         The project contains no own sources.
     </description>
-    <version>7.1.2.1</version>
+    <version>7.1.2.2</version>
     <packaging>pom</packaging>
     <licenses>
         <license>
@@ -21,6 +21,24 @@
     <properties>
         <liferay.release.bom.version>7.1.2</liferay.release.bom.version>
     </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.1.1</version>
+                <executions>
+                    <execution>
+                        <id>download-dependencies-and-their-sources</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>go-offline</goal>
+                            <goal>sources</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
     <repositories>
         <repository>
             <id>liferay-public-snapshots</id>
