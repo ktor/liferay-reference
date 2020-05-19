@@ -3,6 +3,7 @@ Pawel Kruszewski <kruszewsky@gmail.com>
 v7.2.1, 2020-05-19
 :toc:
 
+
 == About
 The project serves as an index of Liferay CE 7 code. It’s meant to
 include all Liferay 7 code as dependency.
