@@ -1,6 +1,6 @@
 = liferay-reference
 Pawel Kruszewski <kruszewsky@gmail.com>
-v7.2.0, 2019-07-29
+v7.2.1, 2020-05-19
 :toc:
 
 == About
@@ -47,7 +47,9 @@ Liferay 7 code: https://github.com/holatuwol/liferay-intellij
 
 == Supported Liferay Portal versions
 
-. Liferay CE 7.2.0: link:./dependency-listing-7.2.0.txt[dependency listing] |
+. Liferay CE 7.2.1: link:https://github.com/ktor/liferay-reference/blob/7.2.1/dependency-listing-7.2.1.txt[dependency listing] |
+https://github.com/synus-org/liferay-reference/tree/7.2.1[tag]
+. Liferay CE 7.2.0: link:https://github.com/ktor/liferay-reference/blob/7.2.0/dependency-listing-7.2.0.txt[dependency listing] |
 https://github.com/synus-org/liferay-reference/tree/7.2.0[tag]
 . Liferay CE 7.1.2: link:https://github.com/synus-org/liferay-reference/blob/7.1.2.2/dependency-listing-7.1.2.txt[dependency listing] |
 https://github.com/synus-org/liferay-reference/tree/7.1.2.2[tag]
