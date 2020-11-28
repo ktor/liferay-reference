@@ -1,6 +1,6 @@
 = liferay-reference
 Pawel Kruszewski <kruszewsky@gmail.com>
-v7.2.1, 2020-05-19
+v7.3.5, 2020-11-28
 :toc:
 
 
@@ -21,11 +21,7 @@ The project delivers handy index of all Liferay sources.
 
 == Basic facts
 
-* The project uses `release.portal.bom`,`release.portal.bom.compile.only` and `release.portal.bom.third.party` artifacts from Liferay to retrieve _almost all_
-  footnote:[Some of the dependencies are not provided in `release.portal.bom`,`release.portal.bom.compile.only` and `release.portal.bom.third.party`
-            or provided with a wrong type e.g. default `jar` when it's a `war` dependency. Those dependencies are curated in `pom.xml` section named
-            "fix for broken bom dependencies"]
-  dependency versions.
+* The project uses `release.portal.bom`,`release.portal.bom.compile.only` and `release.portal.bom.third.party` artifacts from Liferay to retrieve all dependencies.
 * The project is not meant to be built.
 * The project contains no own sources.
 
@@ -48,6 +44,8 @@ Liferay 7 code: https://github.com/holatuwol/liferay-intellij
 
 == Supported Liferay Portal versions
 
+. Liferay CE 7.3.5: link:https://github.com/ktor/liferay-reference/blob/7.3.5/pom.xml[dependency listing] |
+https://github.com/synus-org/liferay-reference/tree/7.3.5[tag]
 . Liferay CE 7.2.1: link:https://github.com/ktor/liferay-reference/blob/7.2.1/dependency-listing-7.2.1.txt[dependency listing] |
 https://github.com/synus-org/liferay-reference/tree/7.2.1[tag]
 . Liferay CE 7.2.0: link:https://github.com/ktor/liferay-reference/blob/7.2.0/dependency-listing-7.2.0.txt[dependency listing] |
