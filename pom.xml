@@ -6365,6 +6365,12 @@
             <groupId>net.open-esb.core</groupId>
             <artifactId>jbi_rt</artifactId>
             <version>2.4.3</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>glassfish</groupId>
+                    <artifactId>appserv-ext</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>velocity-tools</groupId>
